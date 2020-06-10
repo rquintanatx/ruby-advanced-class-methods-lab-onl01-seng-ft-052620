@@ -51,7 +51,7 @@ class Song
     split_file = filename.split(/\.|\-|!/)
     song = self.new
     song.name = split_file[1]
-    song.artist_name[0]
+    song.artist_name = split_file[0]
     song
   end
     
