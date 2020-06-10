@@ -54,6 +54,8 @@ class Song
     song.artist_name = split_file[0].split.join("")
     song
   end
+  
+  
     
   
   def self.destroy_all
