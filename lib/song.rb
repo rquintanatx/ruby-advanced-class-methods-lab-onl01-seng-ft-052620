@@ -48,7 +48,7 @@ class Song
   end
       
   def self.new_from_filename(filename)
-    split_file = filename.split(\.|\-|!)
+    split_file = filename.split(/\.|\-|!\)
     binding.pry
     
   end
