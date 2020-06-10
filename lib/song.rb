@@ -51,6 +51,7 @@ class Song
     filename.split(/./)
   end
     
+  
   def self.destroy_all
     self.all.clear
   end 
